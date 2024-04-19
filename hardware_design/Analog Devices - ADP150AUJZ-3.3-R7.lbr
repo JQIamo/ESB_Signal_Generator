@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="ANALOG_DEVICES_ADP150AUJZ-3.3-R7_0">
+                    <description>ADI-ADP1XX-UJ-5</description>
+                    <wire layer="21" y2="1.45" width="0.15" x2="0.45" y1="-1.45" x1="0.45"/>
+                    <wire layer="21" y2="1.45" width="0.15" x2="-0.45" y1="-1.45" x1="-0.45"/>
+                    <wire layer="21" y2="-1.45" width="0.15" x2="0.45" y1="-1.45" x1="-0.45"/>
+                    <wire layer="21" y2="1.45" width="0.15" x2="0.45" y1="1.45" x1="-0.45"/>
+                    <wire layer="51" y2="-1.45" width="0.1" x2="0.8" y1="-1.45" x1="-0.8"/>
+                    <wire layer="51" y2="1.45" width="0.1" x2="0.8" y1="1.45" x1="-0.8"/>
+                    <wire layer="51" y2="1.45" width="0.1" x2="0.8" y1="-1.45" x1="0.8"/>
+                    <wire layer="51" y2="1.45" width="0.1" x2="-0.8" y1="-1.45" x1="-0.8"/>
+                    <wire layer="39" y2="1.55" width="0.1" x2="-1.7" y1="-1.55" x1="-1.7"/>
+                    <wire layer="39" y2="1.55" width="0.1" x2="1.7" y1="1.55" x1="-1.7"/>
+                    <wire layer="39" y2="-1.55" width="0.1" x2="1.7" y1="1.55" x1="1.7"/>
+                    <wire layer="39" y2="-1.55" width="0.1" x2="-1.7" y1="-1.55" x1="1.7"/>
+                    <text layer="25" align="bottom-left" y="1.925" x="-2.7" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.8" x="-1.225" layer="21" radius="0.125" width="0.25"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="0" dx="0.6" dy="0.75" y="0.95" x="1.225" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="0.6" dy="0.75" y="-0.95" x="1.225" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="0.6" dy="0.75" y="-0.95" x="-1.225" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.6" dy="0.75" y="0.0" x="-1.225" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.6" dy="0.75" y="0.95" x="-1.225" rot="R90" cream="yes"/>
+                </package>
+                <package name="ANALOG_DEVICES_ADP150AUJZ-3.3-R7_1">
+                    <description>ADI-ADP1XX-UJ-5</description>
+                    <wire layer="21" y2="1.45" width="0.15" x2="0.35" y1="-1.45" x1="0.35"/>
+                    <wire layer="21" y2="1.45" width="0.15" x2="-0.35" y1="-1.45" x1="-0.35"/>
+                    <wire layer="21" y2="-1.45" width="0.15" x2="0.35" y1="-1.45" x1="-0.35"/>
+                    <wire layer="21" y2="1.45" width="0.15" x2="0.35" y1="1.45" x1="-0.35"/>
+                    <wire layer="51" y2="-1.45" width="0.1" x2="0.8" y1="-1.45" x1="-0.8"/>
+                    <wire layer="51" y2="1.45" width="0.1" x2="0.8" y1="1.45" x1="-0.8"/>
+                    <wire layer="51" y2="1.45" width="0.1" x2="0.8" y1="-1.45" x1="0.8"/>
+                    <wire layer="51" y2="1.45" width="0.1" x2="-0.8" y1="-1.45" x1="-0.8"/>
+                    <wire layer="39" y2="1.7" width="0.1" x2="-1.95" y1="-1.7" x1="-1.95"/>
+                    <wire layer="39" y2="1.7" width="0.1" x2="1.95" y1="1.7" x1="-1.95"/>
+                    <wire layer="39" y2="-1.7" width="0.1" x2="1.95" y1="1.7" x1="1.95"/>
+                    <wire layer="39" y2="-1.7" width="0.1" x2="-1.95" y1="-1.7" x1="1.95"/>
+                    <text layer="25" align="bottom-left" y="1.925" x="-2.95" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.8" x="-1.225" layer="21" radius="0.125" width="0.25"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="0" dx="0.6" dy="0.95" y="0.95" x="1.225" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="0.6" dy="0.95" y="-0.95" x="1.225" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="0.6" dy="0.95" y="-0.95" x="-1.225" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.6" dy="0.95" y="-0.0" x="-1.225" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.6" dy="0.95" y="0.95" x="-1.225" rot="R90" cream="yes"/>
+                </package>
+                <package name="ANALOG_DEVICES_ADP150AUJZ-3.3-R7_2">
+                    <description>ADI-ADP1XX-UJ-5</description>
+                    <wire layer="21" y2="1.45" width="0.15" x2="0.25" y1="-1.45" x1="0.25"/>
+                    <wire layer="21" y2="1.45" width="0.15" x2="-0.25" y1="-1.45" x1="-0.25"/>
+                    <wire layer="21" y2="-1.45" width="0.15" x2="0.25" y1="-1.45" x1="-0.25"/>
+                    <wire layer="21" y2="1.45" width="0.15" x2="0.25" y1="1.45" x1="-0.25"/>
+                    <wire layer="51" y2="-1.45" width="0.1" x2="0.8" y1="-1.45" x1="-0.8"/>
+                    <wire layer="51" y2="1.45" width="0.1" x2="0.8" y1="1.45" x1="-0.8"/>
+                    <wire layer="51" y2="1.45" width="0.1" x2="0.8" y1="-1.45" x1="0.8"/>
+                    <wire layer="51" y2="1.45" width="0.1" x2="-0.8" y1="-1.45" x1="-0.8"/>
+                    <wire layer="39" y2="1.95" width="0.1" x2="-2.3" y1="-1.95" x1="-2.3"/>
+                    <wire layer="39" y2="1.95" width="0.1" x2="2.3" y1="1.95" x1="-2.3"/>
+                    <wire layer="39" y2="-1.95" width="0.1" x2="2.3" y1="1.95" x1="2.3"/>
+                    <wire layer="39" y2="-1.95" width="0.1" x2="-2.3" y1="-1.95" x1="2.3"/>
+                    <text layer="25" align="bottom-left" y="1.975" x="-3.3" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.85" x="-1.225" layer="21" radius="0.125" width="0.25"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="0" dx="0.7" dy="1.15" y="0.95" x="1.225" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="0.7" dy="1.15" y="-0.95" x="1.225" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="0.7" dy="1.15" y="-0.95" x="-1.225" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.7" dy="1.15" y="0.0" x="-1.225" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.7" dy="1.15" y="0.95" x="-1.225" rot="R90" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="ANALOG_DEVICES_ADP150AUJZ-3.3-R7_0_0">
+                    <description>ADI-ADP1XX-UJ-5</description>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="0.0" y1="-17.78" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="15.24" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-17.78" width="0.508" x2="15.24" y1="-5.08" x1="15.24"/>
+                    <wire layer="94" y2="-17.78" width="0.508" x2="0.0" y1="-17.78" x1="15.24"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="0.0" y1="-7.62" x1="0.0"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="7.62" y1="-17.78" x1="7.62"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="0.0" y1="-12.7" x1="0.0"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="15.24" y1="-12.7" x1="15.24"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="15.24" y1="-7.62" x1="15.24"/>
+                    <text layer="94" align="bottom-left" y="-17.272" x="5.08" rot="R0" size="2.54">GND</text>
+                    <text layer="95" align="top-left" y="-2.54" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-22.86" x="0.0" rot="R0" size="2.54">ADP150AUJZ-3.3-R7</text>
+                    <pin direction="pwr" name="VIN" visible="both" length="middle" y="-7.62" x="-5.08"/>
+                    <pin direction="pwr" name="GND" visible="pad" length="middle" y="-22.86" x="7.62" rot="R90"/>
+                    <pin direction="in" name="EN" visible="both" length="middle" y="-12.7" x="-5.08"/>
+                    <pin direction="pas" name="NC" visible="both" length="middle" y="-12.7" x="20.32" rot="R180"/>
+                    <pin direction="pwr" name="VOUT" visible="both" length="middle" y="-7.62" x="20.32" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="ANALOG_DEVICES_ADP150AUJZ-3.3-R7">
+                    <description>ADI-ADP1XX-UJ-5</description>
+                    <gates>
+                        <gate name="G$0" symbol="ANALOG_DEVICES_ADP150AUJZ-3.3-R7_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="ANALOG_DEVICES_ADP150AUJZ-3.3-R7_0_0" package="ANALOG_DEVICES_ADP150AUJZ-3.3-R7_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="VIN"/>
+                                <connect gate="G$0" pad="2" pin="GND"/>
+                                <connect gate="G$0" pad="3" pin="EN"/>
+                                <connect gate="G$0" pad="4" pin="NC"/>
+                                <connect gate="G$0" pad="5" pin="VOUT"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="ciiva_ids" value="975179"/>
+                                    <attribute name="Preset_Vout_Values_V" value="3.3"/>
+                                    <attribute name="Package_Version" value="100708-A, 10/2008"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="70507598-8A6A-4FF9-A6C4-4DAE49C689A6"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="MPN" value="ADP150AUJZ-3.3-R7"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.analog.com/en/index.html"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="import_ts" value="1521857608"/>
+                                    <attribute name="Datasheet_Version" value="Rev. A"/>
+                                    <attribute name="Packing" value="Reel"/>
+                                    <attribute name="Code__JEDEC" value="MO-193-AB"/>
+                                    <attribute name="Package_Description" value="5-Pin Thin Small Outline Transistor Package, Body 2.9 x 1.6 mm, Pitch 0.95 mm"/>
+                                    <attribute name="datasheet" value="http://www.analog.com/static/imported-files/data_sheets/ADP150.pdf"/>
+                                    <attribute name="Iout_max" value="150mA"/>
+                                    <attribute name="vault_revision" value="BD3AA6A0-0F13-46D0-8547-DEEA94063516"/>
+                                    <attribute name="Supply_Current_IGND__Small_Load" value="10uA"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="release_date" value="1391079503"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="Component_Link_4_URL" value="Product URL:http://www.analog.com/en/ADP150/productSearch.html"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="Component_Link_4_Description" value="URL Link1"/>
+                                    <attribute name="MF" value="Analog Devices"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="Vin_max_V" value="5.5"/>
+                                    <attribute name="Vin_min_V" value="2.2"/>
+                                    <attribute name="package" value="UJ-5"/>
+                                    <attribute name="Component_Link_3_URL" value="http:/www.analog.com/static/imported-files/packages/PKG_PDF/TSOT(UJ)/UJ_5.pdf"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="ANALOG_DEVICES_ADP150AUJZ-3.3-R7_0_1" package="ANALOG_DEVICES_ADP150AUJZ-3.3-R7_1">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="VIN"/>
+                                <connect gate="G$0" pad="2" pin="GND"/>
+                                <connect gate="G$0" pad="3" pin="EN"/>
+                                <connect gate="G$0" pad="4" pin="NC"/>
+                                <connect gate="G$0" pad="5" pin="VOUT"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="ciiva_ids" value="975179"/>
+                                    <attribute name="Preset_Vout_Values_V" value="3.3"/>
+                                    <attribute name="Package_Version" value="100708-A, 10/2008"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="70507598-8A6A-4FF9-A6C4-4DAE49C689A6"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="MPN" value="ADP150AUJZ-3.3-R7"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.analog.com/en/index.html"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="import_ts" value="1521857608"/>
+                                    <attribute name="Datasheet_Version" value="Rev. A"/>
+                                    <attribute name="Packing" value="Reel"/>
+                                    <attribute name="Code__JEDEC" value="MO-193-AB"/>
+                                    <attribute name="Package_Description" value="5-Pin Thin Small Outline Transistor Package, Body 2.9 x 1.6 mm, Pitch 0.95 mm"/>
+                                    <attribute name="datasheet" value="http://www.analog.com/static/imported-files/data_sheets/ADP150.pdf"/>
+                                    <attribute name="Iout_max" value="150mA"/>
+                                    <attribute name="vault_revision" value="BD3AA6A0-0F13-46D0-8547-DEEA94063516"/>
+                                    <attribute name="Supply_Current_IGND__Small_Load" value="10uA"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="release_date" value="1391079503"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="Component_Link_4_URL" value="Product URL:http://www.analog.com/en/ADP150/productSearch.html"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="Component_Link_4_Description" value="URL Link1"/>
+                                    <attribute name="MF" value="Analog Devices"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="Vin_max_V" value="5.5"/>
+                                    <attribute name="Vin_min_V" value="2.2"/>
+                                    <attribute name="package" value="UJ-5"/>
+                                    <attribute name="Component_Link_3_URL" value="http:/www.analog.com/static/imported-files/packages/PKG_PDF/TSOT(UJ)/UJ_5.pdf"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="ANALOG_DEVICES_ADP150AUJZ-3.3-R7_0_2" package="ANALOG_DEVICES_ADP150AUJZ-3.3-R7_2">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="VIN"/>
+                                <connect gate="G$0" pad="2" pin="GND"/>
+                                <connect gate="G$0" pad="3" pin="EN"/>
+                                <connect gate="G$0" pad="4" pin="NC"/>
+                                <connect gate="G$0" pad="5" pin="VOUT"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="ciiva_ids" value="975179"/>
+                                    <attribute name="Preset_Vout_Values_V" value="3.3"/>
+                                    <attribute name="Package_Version" value="100708-A, 10/2008"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="70507598-8A6A-4FF9-A6C4-4DAE49C689A6"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="MPN" value="ADP150AUJZ-3.3-R7"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.analog.com/en/index.html"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="import_ts" value="1521857608"/>
+                                    <attribute name="Datasheet_Version" value="Rev. A"/>
+                                    <attribute name="Packing" value="Reel"/>
+                                    <attribute name="Code__JEDEC" value="MO-193-AB"/>
+                                    <attribute name="Package_Description" value="5-Pin Thin Small Outline Transistor Package, Body 2.9 x 1.6 mm, Pitch 0.95 mm"/>
+                                    <attribute name="datasheet" value="http://www.analog.com/static/imported-files/data_sheets/ADP150.pdf"/>
+                                    <attribute name="Iout_max" value="150mA"/>
+                                    <attribute name="vault_revision" value="BD3AA6A0-0F13-46D0-8547-DEEA94063516"/>
+                                    <attribute name="Supply_Current_IGND__Small_Load" value="10uA"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="release_date" value="1391079503"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="Component_Link_4_URL" value="Product URL:http://www.analog.com/en/ADP150/productSearch.html"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="Component_Link_4_Description" value="URL Link1"/>
+                                    <attribute name="MF" value="Analog Devices"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="Vin_max_V" value="5.5"/>
+                                    <attribute name="Vin_min_V" value="2.2"/>
+                                    <attribute name="package" value="UJ-5"/>
+                                    <attribute name="Component_Link_3_URL" value="http:/www.analog.com/static/imported-files/packages/PKG_PDF/TSOT(UJ)/UJ_5.pdf"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
