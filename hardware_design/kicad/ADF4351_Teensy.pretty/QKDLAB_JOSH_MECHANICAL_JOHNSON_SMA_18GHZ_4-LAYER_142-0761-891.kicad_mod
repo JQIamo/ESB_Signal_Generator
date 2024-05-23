@@ -1,0 +1,100 @@
+(footprint "QKDLAB_JOSH_MECHANICAL_JOHNSON_SMA_18GHZ_4-LAYER_142-0761-891"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Footprint for 50 Ohm matched SMA_connector with sunstone's 4 layer board stackup")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "34e23cb6-e5c2-4aa6-9821-7a11828a93e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "04d6f1fb-3329-4fb9-89fa-a9aaf4910702")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" "QKDLAB_JOSH_MECHANICAL_JOHNSON_SMA_18GHZ_4-LAYER_142-0761-891"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3bd8cd7-106e-40ae-ba00-25d77f2142b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8480958d-4e31-49bd-aa94-397460dcb39e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86b35c70-1321-4f87-a732-afa6a7811761")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(pad "P$1" smd rect
+		(at 0 2.7686)
+		(size 0.3556 5.5372)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "33e218f5-590f-4eb9-a403-97311b79c48f")
+	)
+	(pad "P$2" smd rect
+		(at 2.4892 2.7686)
+		(size 3.556 5.5372)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0381)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "ec850095-b073-4c68-9a15-e2facb878538")
+	)
+	(pad "P$3" smd rect
+		(at -2.4892 2.7686)
+		(size 3.556 5.5372)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0381)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "e8e6ebb4-6a7c-4204-9f97-d5093897bfba")
+	)
+	(pad "P$4" smd rect
+		(at 0 1.27)
+		(size 8.382 2.54)
+		(layers "B.Cu" "B.Mask")
+		(solder_mask_margin 0.0381)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "dfcbbd19-5f58-4822-974e-24917db9d92e")
+	)
+)

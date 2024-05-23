@@ -1,0 +1,122 @@
+(footprint "L_FERRITE_0603"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.2 -0.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "efa8ce87-052d-4e34-86a6-6af021d6ae6e")
+		(effects
+			(font
+				(size 0.93472 0.93472)
+				(thickness 0.08128)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ce9f29af-db49-4508-8876-a82554fbd209")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" "L_FERRITE_0603"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aed284fe-d42d-45fb-a3cf-2b2ad00069e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7437425-913d-40b7-8544-88405a1e5300")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4157a37-822b-4d19-aea8-668d0eb99a86")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -1.175 -0.725)
+		(end -1.175 0.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3543ca5-bf4f-4795-9ba3-c81288d947a5")
+	)
+	(fp_line
+		(start -1.175 0.725)
+		(end 1.175 0.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46ca55ea-5ae9-4a52-b574-780600951ec3")
+	)
+	(fp_line
+		(start 1.175 -0.725)
+		(end -1.175 -0.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9861882-1303-4b50-8667-1eaeb459e9dc")
+	)
+	(fp_line
+		(start 1.175 0.725)
+		(end 1.175 -0.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39b8ab98-c70c-44bd-a42e-c08ffdc732b6")
+	)
+	(pad "P$1" smd rect
+		(at -0.75 0)
+		(size 0.6 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "89d97898-8816-44ec-b195-15cfe94046e6")
+	)
+	(pad "P$2" smd rect
+		(at 0.75 0)
+		(size 0.6 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "fba3a064-5f5b-4c6b-a0ca-bfc7fe2a0280")
+	)
+)
