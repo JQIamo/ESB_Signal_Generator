@@ -1,0 +1,217 @@
+(footprint "CT7343"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TANTALUM CAPACITOR")
+	(property "Reference" "REF**"
+		(at -2.54 -2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cea9ae90-eea3-403b-bfd0-f80130621857")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "CT7343"
+		(at -2.54 3.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f49e3a32-67b7-4378-b532-acac2cc02660")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "091928f4-8f93-445b-825d-bddd62af3d64")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74ff2f9a-67d9-4087-9b97-0162d1de3ede")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10a866e8-363f-4504-8f4a-e3005a1387f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy -0.5001 1) (xy 0.5001 1) (xy 0.5001 -1) (xy -0.5001 -1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Adhes")
+		(uuid "86c837bb-6355-4caf-8a07-0074326d3a7c")
+	)
+	(fp_line
+		(start -4.973 -2.483)
+		(end 4.973 -2.483)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb7c95cb-4e4f-463a-9224-e83bfd092ae8")
+	)
+	(fp_line
+		(start -4.973 2.483)
+		(end -4.973 -2.483)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ca964dc-e6ca-496f-a86b-891a838f208e")
+	)
+	(fp_line
+		(start 4.973 -2.483)
+		(end 4.973 2.483)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb0362a9-1e75-4084-8a8e-4d51761f9d2c")
+	)
+	(fp_line
+		(start 4.973 2.483)
+		(end -4.973 2.483)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5fd8cc5b-c2b4-46b4-ada5-3fcb8b5d16f3")
+	)
+	(fp_line
+		(start -3.734 -1.143)
+		(end -3.734 1.143)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4057784c-201f-485b-992b-bf84dea21b93")
+	)
+	(fp_line
+		(start -3.592 2.195)
+		(end -3.592 -2.195)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a86103e7-9588-43c8-8d77-4844ed215019")
+	)
+	(fp_line
+		(start -2.55 -0.52)
+		(end -2.55 0.52)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d6a860c-67b0-4b3d-93d5-3926dd5c5858")
+	)
+	(fp_line
+		(start -2.04 0)
+		(end -3.09 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dfbf4faa-6aa2-46e0-948c-eb0c3f0d9bc5")
+	)
+	(fp_line
+		(start 3.582 -2.195)
+		(end -3.592 -2.195)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d5435af1-5e69-4ebc-8d7a-427c1c97ec45")
+	)
+	(fp_line
+		(start 3.582 2.195)
+		(end -3.592 2.195)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "62aa1a9e-7e68-4a84-b50b-7d94713d59b7")
+	)
+	(fp_line
+		(start 3.582 2.195)
+		(end 3.582 -2.195)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "993da37f-ee3f-449d-a5be-eba7f99af8a4")
+	)
+	(fp_line
+		(start 3.734 -1.143)
+		(end 3.734 1.143)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9483ef4c-15e5-4ffc-81ce-7143b90ccd3b")
+	)
+	(pad "+" smd rect
+		(at -3.2 0)
+		(size 2.6 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "1a700861-ed83-4b99-a724-b8546ac282e2")
+	)
+	(pad "-" smd rect
+		(at 3.2 0)
+		(size 2.6 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "ab70b788-c3e1-4c8c-a85c-1b082aef6ab0")
+	)
+)

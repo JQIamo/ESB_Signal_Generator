@@ -1,0 +1,194 @@
+(footprint "VISUAL_COMMUNICATIONS_CMD17-21VGD-TR8_0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CHICAGO MINIATURE LIGHTING CMD17-21VGD/TR8 LED, GREEN, 1.25MM X 1.4MM, 7MCD, 570NM")
+	(property "Reference" "REF**"
+		(at 2.05 0.275 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "66c879c9-2e7f-4682-8860-4e7557b27d6a")
+		(effects
+			(font
+				(size 0.92 0.92)
+				(thickness 0.08)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1493e0e2-56cf-4ee9-8715-05d8f83187cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15af8ff6-f26c-448f-99b8-bfe9f77372ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08de665d-e6d2-4adf-9589-f7ccf9b9af83")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "451da644-be17-4478-95a9-615514980f49")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -0.225 -0.725)
+		(end 0.225 -0.725)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82025eff-5a76-49ff-b67b-20a3c6be509d")
+	)
+	(fp_line
+		(start -0.225 0.725)
+		(end 0.225 0.725)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d12cb41f-70ae-4418-a0d7-2b2022d62947")
+	)
+	(fp_circle
+		(center -2.275 0)
+		(end -2.15 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "31a45e52-3203-408a-8035-868a29eac90f")
+	)
+	(fp_line
+		(start -1.8 -0.825)
+		(end 1.8 -0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ee98aec-4a1a-4bad-98bc-b86f60a37132")
+	)
+	(fp_line
+		(start -1.8 0.825)
+		(end -1.8 -0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bcb5fcd3-22ca-422a-8ad0-81ddd3662910")
+	)
+	(fp_line
+		(start 1.8 -0.825)
+		(end 1.8 0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f7b4e54-8461-4433-bfd4-73de43f263cc")
+	)
+	(fp_line
+		(start 1.8 0.825)
+		(end -1.8 0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "07965f31-c1e9-4379-a072-7114067421b6")
+	)
+	(fp_line
+		(start -1.1 -0.725)
+		(end 1.1 -0.725)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4acb7ce7-213b-432e-abc9-b59b22e8ca7a")
+	)
+	(fp_line
+		(start -1.1 0.725)
+		(end -1.1 -0.725)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f38251ca-9379-40c3-b945-9948b78e377b")
+	)
+	(fp_line
+		(start 1.1 -0.725)
+		(end 1.1 0.725)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4fcb90b9-1feb-48ea-b2e7-a54fb7a13136")
+	)
+	(fp_line
+		(start 1.1 0.725)
+		(end -1.1 0.725)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "973ddf0c-9ad0-4383-aebe-ad0540a404d0")
+	)
+	(pad "1" smd rect
+		(at -1.15 0)
+		(size 1.1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "04a07f4f-a8fc-4639-ab5b-7d6b09d4c2ae")
+	)
+	(pad "2" smd rect
+		(at 1.15 0)
+		(size 1.1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "0d6f961e-8e23-485d-903b-77361bfa3a5c")
+	)
+)

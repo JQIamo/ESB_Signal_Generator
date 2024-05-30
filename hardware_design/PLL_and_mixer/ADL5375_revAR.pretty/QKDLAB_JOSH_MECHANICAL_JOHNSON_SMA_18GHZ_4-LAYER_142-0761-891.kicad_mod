@@ -1,0 +1,100 @@
+(footprint "QKDLAB_JOSH_MECHANICAL_JOHNSON_SMA_18GHZ_4-LAYER_142-0761-891"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Footprint for 50 Ohm matched SMA_connector with sunstone's 4 layer board stackup")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "55983965-15b1-4fdc-bd8f-b54912dd67a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "28f778f7-53bb-4fb6-8e1b-86bbdad097e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e493e78d-e7a8-4785-8d49-45db6846b456")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc37bb5f-f0af-4be9-a288-d988e62af65d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc42e85e-ab4c-4f8b-8c04-0b8e049c490d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(pad "P$1" smd rect
+		(at 0 2.7686)
+		(size 0.3556 5.5372)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "5294aee9-f888-4779-b587-4b1c4d3445f0")
+	)
+	(pad "P$2" smd rect
+		(at 2.4892 2.7686)
+		(size 3.556 5.5372)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0381)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "56f0f03d-7315-4cde-8531-f05a35f353bc")
+	)
+	(pad "P$3" smd rect
+		(at -2.4892 2.7686)
+		(size 3.556 5.5372)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0381)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "32bd2da9-d38b-4df5-b115-00f08ac5bf9b")
+	)
+	(pad "P$4" smd rect
+		(at 0 1.27)
+		(size 8.382 2.54)
+		(layers "B.Cu" "B.Mask")
+		(solder_mask_margin 0.0381)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "7222461f-2641-4457-8135-d937557f0a6d")
+	)
+)

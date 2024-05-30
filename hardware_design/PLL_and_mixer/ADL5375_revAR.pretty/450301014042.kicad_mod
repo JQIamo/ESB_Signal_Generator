@@ -1,0 +1,198 @@
+(footprint "450301014042"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WS-SHT, 10mm*2.5mm, SPDT, ON-ON, 2.54mm, straight type, THT, Mini Slide Switch, 3 pins")
+	(property "Reference" "REF**"
+		(at -0.1124 -2.0849 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a078d4ad-6212-4473-93e7-18157693ea90")
+		(effects
+			(font
+				(size 0.747776 0.747776)
+				(thickness 0.065024)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "450301014042"
+		(at -2.0424 2.623 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8e36ddf-d6d4-4114-b86d-a15c822791e4")
+		(effects
+			(font
+				(size 0.747776 0.747776)
+				(thickness 0.065024)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c2b0f2b-5740-4db9-bb79-20ffa867f6a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22b01575-a955-44a0-b9cf-af7aa59d56f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a9aebb4-f652-4a44-853b-6447a4d8cd08")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -5 -1.25)
+		(end -5 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b49b31ab-131d-4312-99bd-7a460947052c")
+	)
+	(fp_line
+		(start -5 1.25)
+		(end 5 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0523c00-bc5d-4ffc-99ac-fba765dbac62")
+	)
+	(fp_line
+		(start 5 -1.25)
+		(end -5 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6a1720b-4bc1-4339-b382-4bea691bc258")
+	)
+	(fp_line
+		(start 5 1.25)
+		(end 5 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c272f13b-5a47-4604-8b5b-120d34b5323d")
+	)
+	(fp_circle
+		(center -0.7 -0.9)
+		(end -0.65 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "088573c3-5ed9-480e-8ddc-4610453f725b")
+	)
+	(fp_poly
+		(pts
+			(xy 5.3135 1.5635) (xy -5.3135 1.5635) (xy -5.3135 -1.5635) (xy 5.3135 -1.5635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "dd9d6894-0a6e-4aac-93d9-f8aa4d7f998c")
+	)
+	(fp_text user "1"
+		(at -0.2 0.3 0)
+		(layer "F.Fab")
+		(uuid "3e9d5d1d-97f2-4da7-85fc-c24a6185a331")
+		(effects
+			(font
+				(size 0.560832 0.560832)
+				(thickness 0.048768)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "2"
+		(at -2.8 0.3 0)
+		(layer "F.Fab")
+		(uuid "91d381ec-d1f5-4172-9641-ac55f072a317")
+		(effects
+			(font
+				(size 0.560832 0.560832)
+				(thickness 0.048768)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "3"
+		(at 2.3 0.2 0)
+		(layer "F.Fab")
+		(uuid "cc40e790-af73-4fbd-a6b3-b849f2d71a5e")
+		(effects
+			(font
+				(size 0.560832 0.560832)
+				(thickness 0.048768)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "88b1c888-848e-4c73-8239-6e2c6a059e3b")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "17148ce2-ae9e-4a94-a9ff-c5622e8d9def")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "66d48354-dbb1-49e6-8e2b-81f6898a327c")
+	)
+)

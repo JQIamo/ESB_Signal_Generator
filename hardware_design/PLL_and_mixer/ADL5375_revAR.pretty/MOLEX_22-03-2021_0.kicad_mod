@@ -1,0 +1,218 @@
+(footprint "MOLEX_22-03-2021_0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "KK® 254 Wire-to-Board Header, Single Row, Vertical, 2 Circuits, PA Polyamide Nylon, Tin (Sn) Plating")
+	(property "Reference" "REF**"
+		(at -2.5 -1.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "46939bc9-336d-4357-8060-38988620e7a3")
+		(effects
+			(font
+				(size 0.92 0.92)
+				(thickness 0.08)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f1fa5909-daf4-42ea-9f41-bff67e3d321d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f4980c3-ba18-4e4a-9447-0d9e7ec143c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4402fd7c-342c-43fe-8114-07398468e873")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eef23c82-d02b-4eab-8562-ced26c3d4bd9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -2.45 -1.18)
+		(end 2.45 -1.18)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b199120-6a81-4409-a5e7-6cd05327bf60")
+	)
+	(fp_line
+		(start -2.45 1.18)
+		(end -2.45 -1.18)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbe3a147-e42c-431c-91ad-037d4978dd39")
+	)
+	(fp_line
+		(start 2.45 -1.18)
+		(end 2.45 1.18)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0423cc22-6c6b-48f9-acfd-db15b66feda7")
+	)
+	(fp_line
+		(start 2.45 1.18)
+		(end -2.45 1.18)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85d25b4b-6147-42f8-bf00-6e854c11f94a")
+	)
+	(fp_circle
+		(center -1.27 1.925)
+		(end -1.145 1.925)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "22286c0d-c8b3-4668-a0b5-cfa41cd79147")
+	)
+	(fp_line
+		(start -2.615 -1.47)
+		(end 2.615 -1.47)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8c4c3903-aa5b-4c36-ac19-09372244cb09")
+	)
+	(fp_line
+		(start -2.615 1.47)
+		(end -2.615 -1.47)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb450f63-9121-492a-83b3-e25f91a4ae46")
+	)
+	(fp_line
+		(start 2.615 -1.47)
+		(end 2.615 1.47)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10982439-6cfd-4755-b61e-6df466b0d0ab")
+	)
+	(fp_line
+		(start 2.615 1.47)
+		(end -2.615 1.47)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4070a289-2667-4495-80f9-c0eb854d9109")
+	)
+	(fp_line
+		(start -2.415 -1.18)
+		(end 2.415 -1.18)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aafaf597-c674-465c-b31b-8e486beabd47")
+	)
+	(fp_line
+		(start -2.415 1.18)
+		(end -2.415 -1.18)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa45e9f3-8214-4a04-a694-2035360ffe25")
+	)
+	(fp_line
+		(start 2.415 -1.18)
+		(end 2.415 1.18)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed022d33-2353-42de-939b-dcf86d54612b")
+	)
+	(fp_line
+		(start 2.415 1.18)
+		(end -2.415 1.18)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cab4d8b-1452-4066-b3d5-cd15f254e7a6")
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 1.57 1.57)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "1444a6b6-fbb9-4899-870f-0324202be5a2")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.57 1.57)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "bddeb293-aebd-4eeb-b194-8f80e6d3e2f5")
+	)
+)
