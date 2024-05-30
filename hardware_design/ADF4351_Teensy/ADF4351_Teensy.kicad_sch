@@ -7419,6 +7419,16 @@
 		)
 		(uuid "085c6c29-0d80-4668-9a8c-e586693989c9")
 	)
+	(polyline
+		(pts
+			(xy 308.8886 235.8524) (xy 307.34 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f903bd-f59b-401e-83dc-9a9982f1d3d6")
+	)
 	(wire
 		(pts
 			(xy 464.82 208.28) (xy 464.82 213.36)
@@ -7741,7 +7751,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 218.44) (xy 334.264 218.44)
+			(xy 331.216 218.44) (xy 334.264 218.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -7771,7 +7781,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 218.44) (xy 316.23 218.44)
+			(xy 313.69 218.44) (xy 315.976 218.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -8008,6 +8018,16 @@
 			(type solid)
 		)
 		(uuid "41c8edc2-df56-4a7f-9641-44c781d20904")
+	)
+	(polyline
+		(pts
+			(xy 308.8886 235.8524) (xy 307.34 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428ae865-2555-409e-9e85-caf85c6940c8")
 	)
 	(wire
 		(pts
@@ -8568,6 +8588,16 @@
 			(type solid)
 		)
 		(uuid "6a7d9a96-040b-4de4-8f84-70e885d32938")
+	)
+	(polyline
+		(pts
+			(xy 307.34 237.49) (xy 337.82 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9b49ca-da7c-4121-b51d-7d00cd878e8c")
 	)
 	(wire
 		(pts
@@ -9519,6 +9549,16 @@
 		)
 		(uuid "c4397705-b2cc-4485-b9e1-c0cdd51b1ccc")
 	)
+	(polyline
+		(pts
+			(xy 307.34 237.49) (xy 309.9385 237.3062)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a99ca0-69b3-46b7-8e56-7d87d445ac0f")
+	)
 	(wire
 		(pts
 			(xy 299.72 224.79) (xy 304.8 224.79)
@@ -10168,6 +10208,16 @@
 			(type solid)
 		)
 		(uuid "ff3a2845-56f6-4510-a34d-dd6781bb3ad6")
+	)
+	(text "We will buy 620pF for\n future boards because\n 660pF does not exist.\n Currently is made with\n two 330pF in parallel.\n But 620pF when simulated\n gives almost identical\n results."
+		(exclude_from_sim no)
+		(at 348.488 230.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48c832d4-e854-428b-89d3-1556a707a188")
 	)
 	(label "CE"
 		(at 474.98 208.28 0)
@@ -11330,7 +11380,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "14.7k"
 			(at 321.564 241.808 0)
 			(effects
 				(font
@@ -18137,7 +18187,7 @@
 	)
 	(symbol
 		(lib_id "ADF4351_Teensy-eagle-import:VISUAL_COMMUNICATIONS_CMD17-21VGD-TR8VISUAL_COMMUNICATIONS_CMD17-21VGD-TR8_0_0")
-		(at 318.77 208.28 0)
+		(at 318.516 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18145,7 +18195,7 @@
 		(dnp no)
 		(uuid "a52a82ff-8503-4307-b884-7c62eed48a08")
 		(property "Reference" "D1"
-			(at 332.486 214.122 0)
+			(at 318.008 210.82 0)
 			(effects
 				(font
 					(size 2.54 2.159)
@@ -18154,7 +18204,7 @@
 			)
 		)
 		(property "Value" "VISUAL_COMMUNICATIONS_CMD17-21VGD-TR8VISUAL_COMMUNICATIONS_CMD17-21VGD-TR8_0_0"
-			(at 318.77 208.28 0)
+			(at 318.516 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18163,7 +18213,7 @@
 			)
 		)
 		(property "Footprint" "ADF4351_Teensy:VISUAL_COMMUNICATIONS_CMD17-21VGD-TR8_0"
-			(at 318.77 208.28 0)
+			(at 318.516 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18172,7 +18222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 208.28 0)
+			(at 318.516 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18181,7 +18231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 318.77 208.28 0)
+			(at 318.516 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19306,7 +19356,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2.7n"
+		(property "Value" "47pF"
 			(at 288.544 237.109 0)
 			(effects
 				(font
@@ -19681,7 +19731,7 @@
 		(dnp no)
 		(uuid "b665db71-1dc8-4092-819a-41fcbc0e3405")
 		(property "Reference" "R1"
-			(at 306.2986 226.06 0)
+			(at 307.594 231.14 90)
 			(effects
 				(font
 					(size 1.524 1.2954)
@@ -19689,8 +19739,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "360"
-			(at 301.498 226.06 0)
+		(property "Value" "1.78k"
+			(at 297.942 231.394 90)
 			(effects
 				(font
 					(size 1.524 1.2954)
@@ -21506,7 +21556,7 @@
 		(dnp no)
 		(uuid "d5c1e36b-143d-4275-924b-22e12d328a82")
 		(property "Reference" "R7"
-			(at 307.34 219.9386 0)
+			(at 306.578 220.726 0)
 			(effects
 				(font
 					(size 1.524 1.2954)
@@ -22465,7 +22515,7 @@
 		(dnp no)
 		(uuid "f04fdf13-aaa6-4393-8bfa-38ca9bf842c3")
 		(property "Reference" "R5"
-			(at 298.45 226.2886 0)
+			(at 296.418 227.33 0)
 			(effects
 				(font
 					(size 1.524 1.2954)
@@ -22473,8 +22523,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "OPEN"
-			(at 298.45 221.488 0)
+		(property "Value" "0"
+			(at 297.688 221.488 0)
 			(effects
 				(font
 					(size 1.524 1.2954)
@@ -22534,7 +22584,7 @@
 		(dnp no)
 		(uuid "f0886851-32e0-4230-a389-7c7c1300ece2")
 		(property "Reference" "R4"
-			(at 318.77 226.2886 0)
+			(at 316.23 227.076 0)
 			(effects
 				(font
 					(size 1.524 1.2954)
@@ -22542,8 +22592,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0"
-			(at 318.77 221.488 0)
+		(property "Value" "5.62k"
+			(at 317.246 221.488 0)
 			(effects
 				(font
 					(size 1.524 1.2954)
@@ -22631,7 +22681,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "660pF"
 			(at 303.784 237.109 0)
 			(effects
 				(font
@@ -22852,7 +22902,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "680p"
+		(property "Value" "22p"
 			(at 331.724 237.109 0)
 			(effects
 				(font
