@@ -1,6 +1,6 @@
 # ESB_Signal_Generator
 
-This project is a radio-frequency signal generator for performing electronic-sideband locking with a Pound-Drever-Hall cavity. Please refer to the [paper](localhost) for details on the system implementation. For the ADALM-PLUTO-based design, please see [this repository](https://github.com/JQIamo/Electronic_Sideband_Locking_Pluto).
+This project is a radio-frequency signal generator for performing electronic-sideband locking with a Pound-Drever-Hall cavity. Please refer to the [paper](https://arxiv.org/abs/2409.08764) for details on the system implementation. For the ADALM-PLUTO-based design, please see [this repository](https://github.com/JQIamo/Electronic_Sideband_Locking_Pluto).
 
 This repository contains the following:
 
